@@ -1,0 +1,21 @@
+{
+  "requiredHeaders": [],
+  "requiredFields": [],
+  "dateFields": [],
+  "numericFields": {},
+  "rowLength": 0,
+  "maxEmptyCellsPercent": 30,
+  "duplicateCheckFields": [],
+  "anomalyRules": {
+    "emptyCellThreshold": 1,
+    "duplicateRowThreshold": 1
+  },
+  "batchSize": 50,
+  "concurrency": 8,
+  "outputDelimiter": ",",
+  "sampleVerification": {
+    "enabled": true,
+    "randomSamplePercent": 5
+  }
+}
+
